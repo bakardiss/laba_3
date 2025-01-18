@@ -19,6 +19,16 @@ public class Child extends Character {
         }
     }
 
+
+    public void reactToFrekkenBok() {
+        System.out.println("Малыш смотрит на Фрекен Бок с испугом.");
+    }
+
+    public void reactToFeast() {
+        System.out.println("Малыш наслаждается лучшим пиром в своей жизни!");
+    }
+
+
     public ComfortState getComfortState() {
         return comfortState;
     }
